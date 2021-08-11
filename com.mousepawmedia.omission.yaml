@@ -13,7 +13,6 @@ cleanup:
     - "*.a"
     - "*.la"
 finish-args:
-    - --filesystem=xdg-data
     - --share=ipc
     - --socket=x11
     - --socket=wayland
